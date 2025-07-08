@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="shortcut icon" href="image/favicon.jfif" type="image/x-icon">
+    <title>Tech Educa-School Of Engineers</title>
+</head>
+<body>
+    
+    <section id="login" active="index.html">
+            <div class="video-container">
+        <!-- Background Video -->
+        <video autoplay muted loop id="background-video">
+            <source src="image/4301307-hd_1920_1080_30fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+            <div class="form">
+            <h2>Create Free Account For Students Now</h2>
+            <input type="text" placeholder="Name" name="" id="">
+            <input type="text" placeholder="Email Address" name="" id="">
+            <input type="text" placeholder="Phone Number" name="" id="">
+            <div class="btn">
+            <a class="yellow" href="#" onclick="window.location.href='index.html'">Log In</a>
+        </div>
+        </div>
+    </section>
+    <script>
+        function login() {
+            // Set login status
+            localStorage.setItem('isLoggedIn', 'true');
+            // Redirect to home page
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>

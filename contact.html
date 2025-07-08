@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="shortcut icon" href="image/favicon.jfif" type="image/x-icon">
+    <title>Tech Educa-School Of Engineers</title>
+</head>
+<body>
+    <!-- Navigation -->
+
+    <nav>
+        <img src="image/logo.jfif">
+        <div class="Navigation">
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="course.html" class="nav-link">Coures</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+        <section id="contact">
+        <h2>Contact TechEduc</h2>
+        </section>
+
+
+          <div class="contact-section">
+    <!-- Left side -->
+    <div class="contact-left">
+      <h2>Get in touch</h2>
+      <p>Looking for help? Fill the form and start a new adventure.</p>
+
+      <div>
+        <strong>Headquarters</strong>
+        <span>744 New York Ave, Brooklyn, Kings, New York 10224</span>
+      </div>
+
+      <div>
+        <strong>Phone</strong>
+        <span>(+642) 245 356 432</span>
+        <span>(+420) 336 476 328</span>
+      </div>
+
+      <div>
+        <strong>Support</strong>
+        <span>techeduca@support.com</span>
+        <span>help@educa.com</span>
+      </div>
+    </div>
+
+    <!-- Right side -->
+    <div class="contact-right">
+      <h2>Let's Connect</h2>
+      <p>Integer at lorem eget diam facilisis lacinia ac id massa.</p>
+
+      <form class="contact-form">
+        <div class="form-row">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+        </div>
+        <input type="text" placeholder="Subject">
+        <textarea rows="5" placeholder="How can we help?"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+
+
+  <div style="margin-top: 40px;">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9034154302695!2d-73.95801412415774!3d40.67817867139657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bcfab1e9f4b%3A0x2f7e3e8a45cc0f69!2sBrooklyn%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1657778888888!5m2!1sen!2s" 
+    width="100%" 
+    height="400" 
+    style="border:0; border-radius: 12px; box-shadow: 0 5px 20px rgba(0,0,0,0.1);" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Product</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Access</li>
+            <li>Investor Relation</li>
+            <li>Term & Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guieds</li>
+            <li>Research</li>
+            <li>Expert</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us, we only send promo offers.</p>
+            <div class="subscribe">
+                <input type="text" placeholder=" Your Email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright @2020 all right reserved | This template made by Tech2etc</p>
+        </div>
+      </footer>
+
+
+            <script>
+    // Page Active Highlight Code
+    window.addEventListener('DOMContentLoaded', () => {
+        let links = document.querySelectorAll('.nav-link');
+        let currentURL = window.location.href;
+
+        links.forEach(link => {
+            if (currentURL.includes(link.getAttribute('href'))) {
+                link.classList.add('active');
+            }
+        });
+    });
+</script>
+</body>
+</html>

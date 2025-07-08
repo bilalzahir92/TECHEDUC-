@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="shortcut icon" href="image/favicon.jfif" type="image/x-icon">
+    <title>Tech Educa-School Of Engineers</title>
+</head>
+<body>
+    <!-- Navigation -->
+
+    <nav>
+        <img src="image/logo.jfif">
+        <div class="Navigation">
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="course.html" class="nav-link">Coures</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- about -->
+
+    <section id="about">
+        <h2>About TechEduc</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elits</p>
+    </section>
+
+    <section id="abt">
+    <!-- Images -->
+        <div class="abtleft">
+            <img src="image/abtleft.jpg" alt="Big-image">
+            <img src="image/abtleft2.jpeg" alt="small-image">
+            <img src="image/abtleft2.webp" alt="small-image">
+        </div>
+
+        <div class="abtright">
+        <h2>Welcome To TechEduc, Enhance your skills with best Online Course</h2>
+        <p>You can start and finish one of these popular courses in under a day – 
+        for free! Check out the list below.. Take the course for free</p>
+        <div class="abtrightss">
+        <img src="image/abtright.jpg" alt="">
+        <div class="abt-text">
+        <h4>400+ Courses</h4>
+        <p>You can start and finish one of these popular courses in under our site</p>
+        </div>
+        </div>
+        <div class="abtrightss">
+        <img src="image/abtright2.jpg" alt="">
+        <div class="abt-text">
+        <h4>Lifetime Access</h4>
+        <p>You can start and finish one of these popular courses in under our site</p>
+        </div>
+        </div>
+        </div>
+        </section>
+
+            <!-- Features -->
+     <section id="features">
+     <h1>Awesome Features</h1>
+     <p>Replenish man have thing geathering lights yielding shall you</p>
+     <div class="fea-base">
+            <div class="fea-box">
+        <i class="fas fa-graduation-cap"></i>
+        <h4>ScholarShip Faculty</h4>
+        <p>One make creepeth, man bearing theira firmament won't great haveen</p>
+    </div>
+    <div class="fea-box">
+        <i class="fas fa-file-alt"></i>
+        <h4>Deal Online Course</h4>
+        <p>One make creepeth, man bearing theira firmament won't great haveen</p>
+    </div>
+    <div class="fea-box">
+        <i class="fas fa-award"></i>
+        <h4>Global Certificate</h4>
+        <p>One make creepeth, man bearing theira firmament won't great haveen</p>
+    </div>
+     </div>
+     </section>
+
+
+
+     <section id="trust">
+        <h1>Trusted By</h1>
+        <p>Replenish man have thing geathering lights yielding shall you</p>
+        <div class="tru-img">
+            <img src="image/UNIVERSITY_BUILDING.jpg" alt="">
+            <img src="image/vecteezy_school-building-facade_11250703.jpg" alt="">
+            <img src="image/UNIVERSITY_BUILDING.jpg" alt="">
+            <img src="image/vecteezy_school-building-facade_11250703.jpg" alt="">
+        </div>
+     </section>
+
+
+
+        <footer>
+        <div class="footer-col">
+            <h3>Top Product</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Access</li>
+            <li>Investor Relation</li>
+            <li>Term & Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guieds</li>
+            <li>Research</li>
+            <li>Expert</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us, we only send promo offers.</p>
+            <div class="subscribe">
+                <input type="text" placeholder=" Your Email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright @2020 all right reserved | This template made by Tech2etc</p>
+        </div>
+      </footer>
+
+            <script>
+    // Page Active Highlight Code
+    window.addEventListener('DOMContentLoaded', () => {
+        let links = document.querySelectorAll('.nav-link');
+        let currentURL = window.location.href;
+
+        links.forEach(link => {
+            if (currentURL.includes(link.getAttribute('href'))) {
+                link.classList.add('active');
+            }
+        });
+    });
+</script>
+</body>
+</html>
